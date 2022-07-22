@@ -69,10 +69,15 @@ ul {
 
 /*------------------------ HEROE SECTION DESIGN--------------------*/
 .heroe-section-design {
+  width: 1600px;
+  height: 600px;
+  left: -78px;
+  top: 84px;
   background-color: #2f303a;
 }
+
 .h1title {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
@@ -81,8 +86,15 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+.h1title-position {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 374px;
+  top: 284px;
+}
 .button-design {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 87;
@@ -93,6 +105,17 @@ ul {
   margin: 0 auto;
   display: block;
 }
+
+.btn-position {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 614px;
+  top: 434px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
 /*------------------------ НАШІ ОСОБЛИВОСТІ--------------------*/
 .visual-hidden {
   position: absolute;
@@ -109,7 +132,7 @@ ul {
 .main-prop-item {
 }
 .main-prop-title {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
@@ -118,7 +141,7 @@ ul {
   color: #212121;
 }
 .main-prop-text {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
@@ -129,7 +152,7 @@ ul {
 .about-our-activity {
 }
 .about-our-activity-title {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
@@ -181,7 +204,7 @@ ul {
 .address-design-item {
 }
 .address-contact-info {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
@@ -193,7 +216,7 @@ ul {
 }
 .footer-mail-design,
 .footer-tel-design {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -203,4 +226,59 @@ ul {
 }
 .footer-link-design {
   text-decoration: none;
+}
+/*------------------------ PORTFOLIO PAGE DESIGN--------------------*/
+.current-link {
+  color: #2196f3;
+}
+/*-------------------BUTTONS----------------------*/
+.work-filtr {
+}
+.btn-color {
+  font-family: inherit, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.btn-design {
+  width: 125px;
+  height: 38px;
+  left: 593px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.btn-color:hover,
+.btn-color:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/*------------------------ PROJECTS EXAMPLES--------------------*/
+
+.project-example-list {
+}
+.project-example-item {
+}
+.project-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
