@@ -11,6 +11,10 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--color-three--);
+  background-color: var(--color-one--);
 }
 ul {
   list-style: none;
@@ -24,10 +28,9 @@ ul {
 
 /*------------------------ HEADER DESIGN--------------------*/
 .header-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .footer-logo-design,
@@ -35,18 +38,16 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--color-one--);
 }
-.web-customazation {
-  color: var(--color-two--);
-}
+
 .header-logo-design {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
 }
@@ -56,73 +57,48 @@ ul {
 .link-design {
   color: var(--color-three--);
 }
+.web-customazation,
 .link-design:hover,
-.link-design:focus {
-  color: var(--color-two--);
-}
-.mail-design {
-  color: var(--color-four--);
-}
-.tel-design {
-  color: var(--color-four--);
-}
+.link-design:focus,
 .mail-design:hover,
-.mail-design:focus {
-  color: var(--color-two--);
-}
+.mail-design:focus,
 .tel-design:hover,
 .tel-design:focus {
   color: var(--color-two--);
 }
+.mail-design,
+.tel-design {
+  color: var(--color-four--);
+}
 
 /*------------------------ HEROE SECTION DESIGN--------------------*/
 .heroe-section-design {
-  width: 1600px;
-  height: 600px;
-  left: -78px;
-  top: 84px;
   background-color: #2f303a;
 }
 
-.h1title {
-  font-family: sans-serif;
+.heroe-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-one--);
 }
-.h1title-position {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 374px;
-  top: 284px;
-}
-.button-design {
-  font-family: inherit, sans-serif;
+
+.heroe-button-design {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
-  text-align: center;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--color-one--);
-  background-color: var(--color-two--);
-  margin: 0 auto;
-  display: block;
+  background-color: #2196f3;
   cursor: pointer;
 }
-
-.btn-position {
-  position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 614px;
-  top: 434px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+.heroe-button-design:hover,
+.heroe-button-design:focus {
+  color: #000000;
 }
 
 /*------------------------ НАШІ ОСОБЛИВОСТІ--------------------*/
@@ -140,29 +116,27 @@ ul {
 }
 
 .main-prop-title {
-  font-family: sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-three--);
 }
 .main-prop-text {
-  font-family: sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-four--);
 }
 /*------------------------ ABOUT OUR ACTIVITY--------------------*/
 
 .about-our-activity-title {
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-three--);
@@ -171,28 +145,28 @@ ul {
 .our-team-section {
   background-color: var(--color-five--);
 }
+.our-team-item {
+  background-color: white;
+}
 .our-team-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-three--);
 }
 
 .team-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-three--);
 }
 .team-position {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-four--);
 }
@@ -202,9 +176,9 @@ ul {
 }
 
 .address-contact-info {
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .street-info {
@@ -213,10 +187,10 @@ ul {
 }
 .footer-mail-design,
 .footer-tel-design {
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -224,13 +198,9 @@ ul {
   text-decoration: none;
 }
 .footer-mail-design:hover,
-.footer-mail-design:focus {
-  color: var(--color-two--);
-}
+.footer-mail-design:focus,
 .footer-tel-design:hover,
-.footer-tel-design:focus {
-  color: var(--color-two--);
-}
+.footer-tel-design:focus,
 .street-info:hover,
 .street-info:focus {
   color: var(--color-two--);
@@ -242,16 +212,11 @@ ul {
 }
 /*-------------------BUTTONS----------------------*/
 .btn-design {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   font-weight: 500;
-  width: 125px;
-  height: 38px;
-  left: 593px;
-  top: 174px;
   background: var(--color-five--);
-  border-radius: 4px;
   cursor: pointer;
 }
 .btn-color:hover,
@@ -262,9 +227,16 @@ ul {
 /*------------------------ PROJECTS EXAMPLES--------------------*/
 
 .project-text {
-  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.8;
   letter-spacing: 0.03em;
-  color: var(--color-four--);
+  color: #757575;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-three--);
 }
