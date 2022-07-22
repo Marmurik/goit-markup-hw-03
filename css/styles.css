@@ -242,6 +242,10 @@ ul {
 }
 /*-------------------BUTTONS----------------------*/
 .btn-design {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1, 62;
+  font-weight: 500;
   width: 125px;
   height: 38px;
   left: 593px;
