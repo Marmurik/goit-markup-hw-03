@@ -1,6 +1,14 @@
 /* оформлення головної сторінки */
 
 /* Header navigation design */
+:root {
+  --color-one--: #ffffff;
+  --color-two--: #2196f3;
+  --color-three--: #212121;
+  --color-four--: #757575;
+  --color-five--: #f5f4fa;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -29,10 +37,10 @@ ul {
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-one--);
 }
 .web-customazation {
-  color: #2196f3;
+  color: var(--color-two--);
 }
 .header-logo-design {
   font-family: "Raleway", sans-serif;
@@ -46,25 +54,25 @@ ul {
 /* links design */
 
 .link-design {
-  color: #212121;
+  color: var(--color-three--);
 }
 .link-design:hover,
 .link-design:focus {
-  color: #2196f3;
+  color: var(--color-two--);
 }
 .mail-design {
-  color: #757575;
+  color: var(--color-four--);
 }
 .tel-design {
-  color: #757575;
+  color: var(--color-four--);
 }
 .mail-design:hover,
 .mail-design:focus {
-  color: #2196f3;
+  color: var(--color-two--);
 }
 .tel-design:hover,
 .tel-design:focus {
-  color: #2196f3;
+  color: var(--color-two--);
 }
 
 /*------------------------ HEROE SECTION DESIGN--------------------*/
@@ -84,7 +92,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-one--);
 }
 .h1title-position {
   position: absolute;
@@ -100,8 +108,8 @@ ul {
   line-height: 1, 87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--color-one--);
+  background-color: var(--color-two--);
   margin: 0 auto;
   display: block;
 }
@@ -129,8 +137,7 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
-.main-prop-item {
-}
+
 .main-prop-title {
   font-family: sans-serif;
   font-weight: 700;
@@ -138,7 +145,7 @@ ul {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-three--);
 }
 .main-prop-text {
   font-family: sans-serif;
@@ -146,11 +153,10 @@ ul {
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-four--);
 }
 /*------------------------ ABOUT OUR ACTIVITY--------------------*/
-.about-our-activity {
-}
+
 .about-our-activity-title {
   font-family: inherit, sans-serif;
   font-weight: 700;
@@ -158,11 +164,11 @@ ul {
   line-height: 1, 16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-three--);
 }
 /*------------------------ OUR TEAM--------------------*/
 .our-team-section {
-  background-color: #f5f4fa;
+  background-color: var(--color-five--);
 }
 .our-team-title {
   font-family: "Roboto", sans-serif;
@@ -171,19 +177,16 @@ ul {
   line-height: 1, 16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-three--);
 }
-.our-team-list {
-}
-.our-team-item {
-}
+
 .team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-three--);
 }
 .team-position {
   font-family: "Roboto", sans-serif;
@@ -191,18 +194,13 @@ ul {
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-four--);
 }
 /*------------------------ FOOTER--------------------*/
 .footer-design {
   background-color: #2f303a;
 }
-.address-design {
-}
-.address-design-list {
-}
-.address-design-item {
-}
+
 .address-contact-info {
   font-family: inherit, sans-serif;
   font-weight: 400;
@@ -211,7 +209,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .street-info {
-  color: #ffffff;
+  color: var(--color-one--);
   font-style: normal;
 }
 .footer-mail-design,
@@ -227,52 +225,39 @@ ul {
 .footer-link-design {
   text-decoration: none;
 }
+.footer-mail-design:hover,
+.footer-mail-design:focus {
+  color: var(--color-two--);
+}
+.footer-tel-design:hover,
+.footer-tel-design:focus {
+  color: var(--color-two--);
+}
+.street-info:hover,
+.street-info:focus {
+  color: var(--color-two--);
+}
+
 /*------------------------ PORTFOLIO PAGE DESIGN--------------------*/
 .current-link {
-  color: #2196f3;
+  color: var(--color-two--);
 }
 /*-------------------BUTTONS----------------------*/
-.work-filtr {
-}
-.btn-color {
-  font-family: inherit, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #f5f4fa;
-}
 .btn-design {
   width: 125px;
   height: 38px;
   left: 593px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--color-five--);
   border-radius: 4px;
 }
 .btn-color:hover,
 .btn-color:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--color-one--);
+  background-color: var(--color-two--);
 }
 /*------------------------ PROJECTS EXAMPLES--------------------*/
 
-.project-example-list {
-}
-.project-example-item {
-}
-.project-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
 .project-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -280,5 +265,5 @@ ul {
   font-size: 16px;
   line-height: 1, 87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-four--);
 }
