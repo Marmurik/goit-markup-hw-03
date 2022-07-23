@@ -39,7 +39,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--color-one--);
 }
 
@@ -48,8 +47,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--color-three--);
 }
 
 /* links design */
@@ -93,12 +91,14 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--color-one--);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   background-color: #2196f3;
   cursor: pointer;
 }
 .heroe-button-design:hover,
 .heroe-button-design:focus {
-  color: #000000;
+  color: var(--color-one--);
 }
 
 /*------------------------ НАШІ ОСОБЛИВОСТІ--------------------*/
@@ -119,15 +119,12 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-three--);
 }
 .main-prop-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--color-four--);
 }
 /*------------------------ ABOUT OUR ACTIVITY--------------------*/
@@ -138,8 +135,6 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color-three--);
 }
 /*------------------------ OUR TEAM--------------------*/
 .our-team-section {
@@ -153,21 +148,16 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color-three--);
 }
 
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--color-three--);
 }
 .team-position {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--color-four--);
 }
 /*------------------------ FOOTER--------------------*/
@@ -179,7 +169,6 @@ ul {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .street-info {
   color: var(--color-one--);
@@ -191,7 +180,6 @@ ul {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link-design {
@@ -227,11 +215,9 @@ ul {
 /*------------------------ PROJECTS EXAMPLES--------------------*/
 
 .project-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-four--);
 }
 .project-title {
   font-weight: 700;
@@ -239,4 +225,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-three--);
+}
+a {
+  text-decoration: none;
 }
