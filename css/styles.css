@@ -384,7 +384,7 @@ img .activity-item {
 .work-filtr-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   column-gap: 8px;
 }
 .project-example-list {
@@ -395,6 +395,11 @@ img .activity-item {
 li .project-example-item {
   width: calc((100%-60px) / 3);
   margin-bottom: 30px;
+}
+img .work-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .text-border {
@@ -409,6 +414,7 @@ li .project-example-item {
   line-height: 1.8;
   color: var(--color-four--);
   margin-top: 0;
+  margin-bottom: ;
 }
 .project-title {
   font-weight: 700;
