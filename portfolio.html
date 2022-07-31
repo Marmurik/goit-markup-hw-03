@@ -15,63 +15,61 @@
   </head>
   <body>
     <!--header-->
-    <header>
-      <nav>
-        <a href="./index.html" class="header-logo-design logo-link"
-          ><span class="web-customazation">Web</span>Studio</a
-        >
-        <ul>
-          <li><a href="./index.html" class="link-design header-text">Студія</a></li>
-          <li>
-            <a href="./portfolio.html" class="link-design header-text current-link"
-              >Портфоліо</a
-            >
-          </li>
-          <li><a href="#" class="link-design header-text">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="mail-design header-text link-design"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
+    <header class="page-header portfolio">
+      <div class="container">
+          <a href="./index.html" class="header-logo-design logo-link"
+            ><span class="web-customazation">Web</span>Studio</a>
+          <nav>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="link-design header-text"
+                >Студія</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="link-design header-text current-link">Портфоліо</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="link-design header-text">Контакти</a></li>
+          </ul>
+        </nav>
+        <div class="portfolio-contact-info">
+          <img src="./img/envelope.svg" alt="мейл" width="16px" height="12px"/><a href="mailto:info@devstudio.com" class="mail-design header-text link-design"
+            >info@devstudio.com</a>
+          <img src="./img/smartphone.svg" alt="мобайл" width="10px" height="16px"/>
           <a href="tel:+380961111111" class="tel-design header-text link-design"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+            >+38 096 111 11 11</a>
+        </div>
     </header>
     <main>
       <!--Фільтр робіт-->
       <section class="work-filtr">
         <!--Скритий заголовок-->
         <h1 class="work-filtr-title visual-hidden">Вибрати сферу робіт</h1>
-        <ul>
-          <li>
+        <ul class="work-filtr-list">
+          <li class="work-filtr-item">
             <button type="button" class="btn-color btn-design">Всі</button>
           </li>
-          <li>
+          <li class="work-filtr-item">
             <button type="button" class="btn-color btn-design">Веб-сайти</button>
           </li>
-          <li>
+          <li class="work-filtr-item">
             <button type="button" class="btn-color btn-design">Додатки</button>
           </li>
-          <li>
+          <li class="work-filtr-item">
             <button type="button" class="btn-color btn-design">Дизайн</button>
           </li>
-          <li>
+          <li class="work-filtr-item">
             <button type="button" class="btn-color btn-design">Маркетинг</button>
           </li>
         </ul>
+        <div class="container work-example-section">
         <ul class="project-example-list">
           <li class="project-example-item">
             <a href="#" target="_blank" rel="noopener noreferrer"
               ><img src="./img/img-5.jpg" alt="Технокряк" width="370" height="294" />
               <h2 class="project-title">Технокряк</h2>
-              <p class="project-text">Веб-сайт</p></a
-            >
+              <p class="project-text">Веб-сайт</p></a>
           </li>
           <li class="project-example-item">
             <a href="#" target="_blank" rel="noopener noreferrer"
@@ -82,8 +80,7 @@
                 height="294"
               />
               <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
-              <p class="project-text">Дизайн</p></a
-            >
+              <p class="project-text">Дизайн</p></a>
           </li>
           <li class="project-example-item">
             <a href="#" target="_blank" rel="noopener noreferrer"
@@ -91,11 +88,9 @@
                 src="./img/img-7.jpg"
                 alt="Ресторан рибний"
                 width="370"
-                height="294"
-              />
+                height="294"/>
               <h2 class="project-title">Ресторан Seafood</h2>
-              <p class="project-text">Додаток</p></a
-            >
+              <p class="project-text">Додаток</p></a>
           </li>
           <li class="project-example-item">
             <a href="#" target="_blank" rel="noopener noreferrer"
@@ -155,17 +150,16 @@
             >
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!--Футер-->
-    <footer class="footer-design">
-      <a href="./index.html" class="footer-logo-design logo-link"
-        ><span class="web-customazation">Web</span>Studio</a
-      >
-
-      <address class="address-design">
-        <ul class="address-design-list">
-          <li class="address-design-item">
+ <footer class="footer-design">
+      <section class="container footer-section">
+      <div class="footer-logo-design"><a href="./index.html" class="container footer-logo-design logo-link"><span class="web-customazation">Web</span>Studio</a></div>
+      <address class="container">
+        <ul>
+          <div><li class="address-position">
             <a
               class="address-contact-info link-design"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
@@ -175,20 +169,24 @@
               <span class="street-info">г. Київ, пр-т Лесі Українки, 26</span></a
             >
           </li>
-          <li>
+          </div>
+          <div><li class="address-position">
             <a
               href="mailto:info@devstudio.com"
               class="footer-mail-design footer-link-design"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          </div>
+          <div><li class="address-position">
             <a href="tel:+380961111111" class="footer-tel-design footer-link-design"
-              >+38 096 111 11 11</a
-            >
+              >+38 096 111 11 11</a>
           </li>
+          </div>
         </ul>
       </address>
+      </div>
+      </section>
     </footer>
   </body>
 </html>
