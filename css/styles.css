@@ -85,15 +85,11 @@ ul {
 .page-header .container {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  /* border-bottom: 1px solid #ececec; */
-}
-.header-portfolio {
   border-bottom: 1px solid #ececec;
 }
-.page-header {
-  border-bottom: 1px solid #ececec;
+div.container {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .portfolio-contact-info,
@@ -157,6 +153,7 @@ ul {
   padding: 200px 280px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   text-align: center;
 }
 
