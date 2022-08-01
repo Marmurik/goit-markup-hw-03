@@ -279,7 +279,8 @@ img .activity-item {
 }
 
 .team-border {
-  padding: 30px 70px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .our-team-title {
@@ -294,6 +295,7 @@ img .activity-item {
   margin-bottom: 10px;
   margin-top: 0;
   text-align: center;
+  /* padding: 30px 70px; */
 }
 .team-position {
   font-size: 16px;
@@ -302,11 +304,12 @@ img .activity-item {
   margin: 0;
   text-align: center;
 }
-.container .team-section .img {
+.team-section .img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 
 /*------------------------ FOOTER--------------------*/
 .footer-design {
@@ -421,7 +424,7 @@ img .work-image {
   line-height: 1.8;
   color: var(--color-four--);
   margin-top: 0;
-  margin-bottom: ;
+  margin-bottom: 0;
 }
 .project-title {
   font-weight: 700;
