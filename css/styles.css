@@ -38,6 +38,12 @@ ul {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*------------------------ HEADER DESIGN--------------------*/
 .container {
   width: 1200px;
@@ -51,7 +57,6 @@ ul {
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-bottom: 30px;
 }
 
 
@@ -147,15 +152,13 @@ ul {
 .heroe-section-design {
   height: 600px;
   background-color: #2f303a;
-  padding: 200px 280px;
+  padding: 200px 0px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 .heroe-container {
-  margin-left: auto;
-  margin-right: auto;
-
+  width: 696px;
 }
 
 .heroe-button-design {
@@ -242,11 +245,11 @@ h3.main-prop-title {
   margin-top: 0;
   margin-bottom: 50px;
 }
-img .activity-item {
+/* img .activity-item {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 .activity-list {
   display: flex;
@@ -287,6 +290,8 @@ img .activity-item {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 .team-name {
   font-weight: 500;
@@ -304,11 +309,11 @@ img .activity-item {
   margin: 0;
   text-align: center;
 }
-.team-section .img {
+/* .team-section .img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 
 /*------------------------ FOOTER--------------------*/
@@ -406,11 +411,11 @@ li .project-example-item {
   width: calc((100%-60px) / 3);
   margin-bottom: 30px;
 }
-img .work-image {
+/* img .work-image {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 .text-border {
   border-right: 1px solid #ececec;
